@@ -50,7 +50,7 @@ start "Nome da instalação .exe"
 ## 📂 Restrição de instalação
 
 ⚠️ **Atenção:** não é possível realizar a instalação de arquivos `.exe` diretamente no diretório `C:\Program Files`.  
-Esse método só funciona corretamente quando o instalador `.exe` grava **todos os seus componentes** dentro do diretório do **usuário** (por exemplo: `C:\Users\SeuUsuario\AppData\Local` ou qualquer outra pasta pessoal).  
+Esse método só funciona corretamente quando o instalador `.exe` grava **todos os seus componentes** dentro do diretório do **usuário** (por exemplo: `C:\Users\SeuUsuario\AppData\Local` ou qualquer outra pasta pessoal).
 
 Se durante a instalação o programa tentar salvar arquivos no `Program Files`, a execução falhará, pois esse diretório exige privilégios administrativos.  
 Ou seja: o `RunAsInvoker` só é útil quando o instalador permite que os arquivos sejam colocados em pastas do usuário, e não quando força a escrita em diretórios do sistema.
@@ -62,3 +62,15 @@ Ou seja: o `RunAsInvoker` só é útil quando o instalador permite que os arquiv
 Se quiser entender mais a fundo sobre essa técnica, seus riscos e como proteger ambientes corporativos e escolares contra esse tipo de prática, acesse meu artigo no Medium:
 
 🔗 [Como proteger ambientes corporativos e escolares contra scripts RunAsInvoker](https://medium.com/@kaua.aissa.dev/como-proteger-ambientes-corporativos-e-escolares-contra-scripts-runasinvoker-a11fb4daaeca)
+
+---
+
+## 📌 Autor
+
+Desenvolvido por **Kauã Aissa** 💻
+<img src="assets/blackcat.png" alt="Logo Gato Preto" width="120" align="right" />
+
+🔗 [LinkedIn](https://www.linkedin.com/in/kauaaissa)  
+🔗 [GitHub](https://github.com/KauaAissa)
+
+---
